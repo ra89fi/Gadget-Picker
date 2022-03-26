@@ -33,6 +33,9 @@ const Shop = () => {
         const item = cart[rn];
         setCart([item]);
     };
+    const removeAll = () => {
+        setCart([]);
+    };
     return (
         <div className="shop">
             <div className="products">
@@ -47,6 +50,7 @@ const Shop = () => {
             <Sidebar
                 handleRemoveFromCart={handleRemoveFromCart}
                 chooseRandom={chooseRandom}
+                removeAll={removeAll}
                 data={cart}
             ></Sidebar>
         </div>
