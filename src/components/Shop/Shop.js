@@ -22,6 +22,17 @@ const Shop = () => {
         const newCart = [...cart, item[0]];
         setCart(newCart);
     };
+    const handleRemoveFromCart = (id) => {
+        const rest = cart.filter((product) => product.id !== id);
+        setCart(rest);
+    };
+    const chooseRandom = () => {
+        if (cart.length < 2) return;
+        const rn = Math.floor(Math.random() * cart.length);
+        console.log(rn);
+        const item = cart[rn];
+        setCart([item]);
+    };
     return (
         <div className="shop">
             <div className="products">
@@ -33,7 +44,11 @@ const Shop = () => {
                     ></Product>
                 ))}
             </div>
-            <Sidebar data={cart}></Sidebar>
+            <Sidebar
+                handleRemoveFromCart={handleRemoveFromCart}
+                chooseRandom={chooseRandom}
+                data={cart}
+            ></Sidebar>
         </div>
     );
 };
