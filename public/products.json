@@ -1,0 +1,56 @@
+[
+    {
+        "id": "Samsung1",
+        "name": "Galaxy Tab S7",
+        "price": "$560",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-tab-s7-1.jpg"
+    },
+    {
+        "id": "Samsung2",
+        "name": "Galaxy Z Flip 5G",
+        "price": "$890",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-z-flip-5g-mystic-bronze.jpg"
+    },
+    {
+        "id": "Samsung3",
+        "name": "Galaxy M31s",
+        "price": "$450",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-m31s.jpg"
+    },
+    {
+        "id": "Samsung4",
+        "name": "Galaxy M01s",
+        "price": "$370",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-m01s-m017f.jpg"
+    },
+    {
+        "id": "Samsung5",
+        "name": "Galaxy M01 Core",
+        "price": "$535",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a01core-sm-a013.jpg"
+    },
+    {
+        "id": "Samsung6",
+        "name": "Galaxy A01 Core",
+        "price": "$675",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a01core-sm-a013.jpg"
+    },
+    {
+        "id": "Samsung7",
+        "name": "Galaxy A71 5G UW",
+        "price": "$465",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a71-5g-uw.jpg"
+    },
+    {
+        "id": "Samsung8",
+        "name": "Galaxy M01",
+        "price": "$755",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-m01.jpg"
+    },
+    {
+        "id": "Samsung9",
+        "name": "Galaxy A21s",
+        "price": "$835",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a21s-.jpg"
+    }
+]
