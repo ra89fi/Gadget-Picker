@@ -17,8 +17,8 @@ const Shop = () => {
             alert("You've alreadey added 4 phones!");
             return;
         }
+        if (cart.filter((product) => product.id === id).length) return;
         const item = products.filter((product) => product.id === id);
-        if (cart.indexOf(item) > -1) return;
         const newCart = [...cart, item[0]];
         setCart(newCart);
     };
